@@ -1,0 +1,96 @@
+,,,,,,,,,
+,Project Name,Ebay (Front End),,,,,,,
+,Client,Ebay ,,,,,,,
+,Prepared By,Qaisar Touqeer Malik,,,,,,,
+,Creation Date,4/15/2026,,,,,,,
+,Test Scenrio ID,TS-001,,,,,,,
+,Title,Register Functionality,,,,,,,
+,Test Scenrio Description,Validate the Registration Functionality ,,,,,,,
+,No of Test Cases,16,,,,,,,
+,,,,,,,,,
+,Test Scenrio ID,Test Case Title,Pre-Requiste ,Test Steps ,Test Data,Expected Result,Actuall Result,Test Result ,Screenshot
+,TS-RF-001,Validating Personal Registration by entering Valid information ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2 : Enter Data in ''Mandatory'' Fields  
+(First Name, Last Name, Email, Password)
+Step 3: Click on ""Create an personal Account""
+Step 4: Enter ""Phone Number""
+Step 5: Enter Code",Not Applicable,Account Created Successfully ,Mobile OTP is not recieved ,Test Failed ,Not Applicable 
+,TS-RF-002,Validating Personal Registration by entering Valid information ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on ""Facebook""
+Step 2: Continue as a ""user name on FB""
+Step 3: Create ""Account"" using detail fetched through fb
+Step 4: Enter ""Mobile Number""
+Step 5: Enter Code",Not Applicable,Account Created Successfully ,Mobile OTP is not recieved ,Test Failed ,Not Applicable 
+,TS-RF-003,Validating Personal Registration by entering Valid information ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on ""Google""
+Step 2: Continue as a ""Email""
+Step 3: Allow ""Access""
+Step 4 : Click ""Create Acount""
+Step 4: Enter ""Mobile Number""
+Step 5: Enter Code",Not Applicable,Account Created Successfully ,Mobile OTP is not recieved ,Test Failed ,Not Applicable 
+,TS-RF-004,Validating Business Registration by entering Valid information ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2 : Enter Data in ''Mandatory'' Fields  
+(Business name, Personal Email, Password, Country)
+Step 3: Check ""
+I’m only interested in buying on eBay for now""
+Step 4: Click ""Create Personal Account""
+Step 5: Enter email Code
+Step 6: Enter Mobile Number",Not Applicable,Account Created Successfully ,Mobile OTP is not recieved ,Test Failed ,Not Applicable 
+,TS-RF-005,Validating proper warnning message appeared when we leave any mandatory fields empty  ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2: Enter the ""Data "" in mandatory Fields
+Step 3: Leave data on Fields one by one. 
+",Not Applicable,"1.first name warning message appeared
+2.last name warning message appeared
+3. email warning message appeared
+4. phone warning message appeared 
+5. Create account Button Disabled or Not working ",Result is same as Expectation ,Test Passed ,Click Here
+,TS-RF-006,Validating Email Field by Entering wrong format of email,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2: Enter Inccorect email Format
+Step 3: Enmter All remaning Data Correctly
+","abc .com
+abc
+abd@
+345
+qaisar234.com", Suppose to be a message like this appeared ''Please enter a valid email address.'',"1. Minimum 6 letter required warning message appeared
+2. Email address is invalid. Please enter a valid email address.",Test Passed ,Click Here
+,TS-RF-007,Validating Phone OTP ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2 : Enter Data in ''Mandatory'' Fields  
+(First Name, Last Name, Email, Password)
+Step 3: Click on ""Create an personal Account""
+Step 4: Enter ""Phone Number""
+",Not Applicable,OTP Received  ,Mobile OTP is not recieved ,Test Failed ,Not Applicable 
+,TS-RF-008,Clicking the Logo at Signup page redirect us to Home page ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2: Now Click the LOGO
+ 
+",Not Applicable,Redirect Back to homepage ,Result is same as Expectation ,Test Passed ,Not Applicable 
+,TS-RF-009,Clicking the login at Signup page redirect us to Login Page ,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2: Now Click the Login
+ 
+",Not Applicable,Redirect to Login Page,Result is same as Expectation ,Test Passed ,Not Applicable 
+,TS-RF-010,Checking Weather Support Button is working or not,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2:Click on support Chatbox Button
+ 
+",Not Applicable,ChatBox Pop Appeared,Result is same as Expectation ,Test Passed ,Click Here
+,TS-RF-011,Verify Long Input Fields,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2:Enter very long name/email/password
+ 
+",Not Applicable,System should restrict or handle input correctly,Result is same as Expectation ,Test Passed ,Click Here
+,TS-RF-012,Verify Internet Interruption,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2:Enter very long name/email/password
+ 
+",Not Applicable,Proper error message displayed,Result is same as Expectation ,Test Passed ,Click Here
+,TS-RF-013,Verify Form Reset on Refresh,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2:Enter Data
+Step 3: Refresh page
+ 
+",Not Applicable,Form should reset OR show warning,Result is same as Expectation ,Test Passed ,Not Applicable 
+,TS-RF-014,Verify Internet Interruption,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2:Enter very long name/email/password
+ 
+",Not Applicable,Form should reset OR show warning,Form is Reset,Test Passed ,Click Here
+,TS-RF-015,Verify Password Strength Validation,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2:Enter weak password
+ 
+",12345,Proper error message displayed,Result is same as Expectation ,Test Passed ,Click Here
+,TS-RF-016,Verify Password Field Masking,open (https://www.ebay.com)  on ny browser ,"Step 1: Click on Register Button 
+Step 2: Enter a valid password
+ 
+",qa321654,Password should be hidden (●●●●●),Result is same as Expectation ,Test Passed ,Click Here
